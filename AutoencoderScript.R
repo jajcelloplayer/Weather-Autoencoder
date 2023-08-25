@@ -36,6 +36,15 @@ n.thin <- 50
 outfilename <- 'outfile.Rdata'
 
 
+# Priors ------------------------------------------------------------------
+#### Prior on Thetas
+theta.mn <- 0
+theta.var <- 5
+#### Prior on sigma^2
+sig2.a <- 2.1
+sig2.b <- 1.1
+
+
 # Data Preparation --------------------------------------------------------
 #### Load in the Key for which Data is available which month
 load("month_key.Rdata")
@@ -272,15 +281,6 @@ sig2 <- max(colMeans((LV-nn.out)^2))
 
 #### Calculate the current log-likelihood 
 cur.llike <- -0.5*log(2*pi*sig2)-sum((LV-nn.out)^2)/(2*sig2)                   
-
-
-# Priors ------------------------------------------------------------------
-#### Prior on Thetas
-theta.mn <- 0
-theta.var <- 5
-#### Prior on sigma^2
-sig2.a <- 2.1
-sig2.b <- 1.1
 
 
 # MCMC Setup --------------------------------------------------------------
