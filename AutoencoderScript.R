@@ -47,7 +47,7 @@ sig2.b <- 1.1
 
 # Data Preparation --------------------------------------------------------
 #### Load in the Key for which Data is available which month
-load("month_key.Rdata")
+month_key <- read.table("month_key.txt", header=T)
 #### Load in the data files
 load("aligned_era5.Rdata")
 load("aligned_merra2.Rdata")
