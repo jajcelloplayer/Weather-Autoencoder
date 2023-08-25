@@ -15,6 +15,9 @@ library(colorspace)
 #### Neural Network Shape
 n.neurons <- c(4,3,2,1,2,3,4)
 
+#### Network Activation Functions
+act.fns <- c(NA, rep("relu", length(n.neurons)-2),"ident") 
+
 #### Data Options
 scaledInput <- TRUE
 tied_down <- 'TRMM'
@@ -179,7 +182,6 @@ k <- ncol(B)
 #### Neural Network Setup
 mid.node <- which(n.neurons==1)
 L <- length(n.neurons)
-act.fns <- c(NA, rep("relu", length(n.neurons)-2),"ident") 
 
 #### Initialize the NN weights
 dat <- dat %>% select(-lat, -lon) # get rid of the lat and lon columns
