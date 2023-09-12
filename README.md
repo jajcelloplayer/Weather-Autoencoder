@@ -2,9 +2,7 @@
 Code and Data for a spatially varrying Bayesian autoencoder. 
 This autoencoder is used to combine and meld multiple climate data products, such as those provided in the data folder.
 
-Contents
-========
-
+# Contents
  * [Code Files](#code-files)
  * [Data Files](#data-files)
  * [Additional Files](#additional-files)
