@@ -6,6 +6,8 @@ Contents
 ========
 
  * [Code Files](#code-files)
+ * [Data Files](#data-files)
+ * [Additional Files](#additional-files)
 
 ## Code Files
 #### AMCMCUpdate.R
