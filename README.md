@@ -2,6 +2,11 @@
 Code and Data for a spatially varrying Bayesian autoencoder. 
 This autoencoder is used to combine and meld multiple climate data products, such as those provided in the data folder.
 
+Contents
+========
+
+ * [Code Files](#code-files)
+
 ## Code Files
 #### AMCMCUpdate.R
 RScript containing the adaptive MCMC function used to train the autoencoder. 
