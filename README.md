@@ -40,5 +40,7 @@ Data from the Tropical Rainfall Measuring Mission. Data is included for all mont
 ## Additional Files
 Supplimentary files supporting the work presented in the paper detailing the autoencoder. 
 
-#### ConsensusMovie.mp4
-A 'time lapse' showing the autoencoder consensus for all months from January 1998 to December 2017.
+#### Consensus Movie
+A 'time lapse' showing the autoencoder consensus for all months from January 1998 to December 2017. Follow the link below to access the video. 
+
+BOX LINK GOES HERE
