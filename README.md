@@ -43,4 +43,4 @@ Supplimentary files supporting the work presented in the paper detailing the aut
 #### Consensus Movie
 A 'time lapse' showing the autoencoder consensus for all months from January 1998 to December 2017. Follow the link below to access the video. 
 
-BOX LINK GOES HERE
+https://byu.box.com/s/5uy94rfbkb8hj5znato1jtcfkumkwut0
