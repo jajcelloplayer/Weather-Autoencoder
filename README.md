@@ -18,6 +18,9 @@ Options to configure the Neural Network are included at the top of the document.
 Next, there is an area to specify the prior parameters for the spatial basis function weights (Normal) and the common recreation error (Inverse Gamma).
 At the end of the script, there is code to create plots of values of interest. These plots can be customized, changed, or removed without changing the function of the autoencoder itself. 
 
+#### Shuffle_Importance_Plots.R
+RScript to calculate and plot the feature importance/contribution of each data product to the consensus. 
+
 #### month_key.txt
 Table showing which data products are available for each month from January 1998 to September 2018. See Data Files section below for details on each of the data products included.
 
